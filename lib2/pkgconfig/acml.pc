@@ -1,0 +1,11 @@
+prefix=/opt/acml/5.3.1/gfortran64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: acml
+Description: AMD Core Math Library
+Version: 5.3.1
+Libs: -L${libdir} -lacml
+Libs.private: -lrt -lgfortran -lm
+Cflags: -I${includedir}

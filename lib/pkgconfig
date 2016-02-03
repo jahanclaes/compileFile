@@ -1,0 +1,10 @@
+prefix=/u/sciteam/bryanc/Install/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SPRNG
+Description: Simple Parallel Random Number Generator
+Version: 2.0
+Libs: -L${libdir} -lsprng 
+Cflags: -I${includedir} 
