@@ -1,0 +1,9 @@
+RunType=FiniteT
+OptType=SR
+StepSize=0.01
+EquilSweeps=1000
+SampleSweeps=1000
+Heisenberg1=bonds.txt
+Heisenberg1_J=12.0
+WaveFunction=CPS
+NumWalkers=32

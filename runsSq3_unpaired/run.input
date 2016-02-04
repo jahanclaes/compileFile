@@ -1,0 +1,5 @@
+RunType=FiniteT
+EquilSweeps=100
+SampleSweeps=100
+NumWalkers=100
+
